@@ -1,4 +1,4 @@
-@media (max-width: 70rem) {
+@media (max-width: 700px) {
   .wrapper {
     display: flex;
     flex-direction: column;
@@ -6,7 +6,12 @@
   .btn {
     margin-top: 0.5rem;
     width: 19.8rem;
+    margin-right: 0.5rem;
     /* height: 2rem; */
+  }
+  .btns {
+    display: flex;
+    flex-direction: row;
   }
   .item img {
     height: 100%;

@@ -111,3 +111,25 @@ header {
 .carousel-films {
   margin-top: 0.5rem;
 }
+/* Responsive layout*/
+@media (max-width: 70rem) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .btn {
+    margin-top: 0.5rem;
+    width: 19.8rem;
+    height: 6rem;
+  }
+  .item img {
+    height: 100%;
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 100rem) {
+  .description {
+    width: 50%;
+  }
+}
