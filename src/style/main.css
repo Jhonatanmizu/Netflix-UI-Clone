@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #e50914;
+  --secondary-color: #141414;
+  --alt-color: #f8f8f8;
+}
+html {
+  font-size: 62.5%;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+body {
+  font-size: 1.6rem;
+  color: #f8f8f8;
+  font-family: "Times new roman", times, sans-serif;
+  background-color: var(--secondary-color);
+}
+header {
+  color: var(--primary-color);
+}
+.container {
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .logo {
+  font-family: "Arial black";
+  font-size: 4rem;
+}
+.navbar .menu {
+  color: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu li {
+  padding: 1rem;
+}
+.navbar .menu li a {
+  color: var(--alt-color);
+  transition: all 0.5s easy-in-out;
+  cursor: pointer;
+}
+.navbar .menu li a:hover {
+  color: #aaa;
+}
+.title {
+  text-transform: uppercase;
+  font-size: 4rem;
+  margin-top: 15%;
+  font-weight: 900;
+  font-family: "Trebuchet MS", monospace;
+}
+.main {
+  font-size: 1.8rem;
+  height: 40rem;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url("https://br.web.img3.acsta.net/newsv7/19/09/19/21/55/3627282.jpg");
+}
+.description {
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+.btns {
+  margin-top: 9rem;
+}
+.btn {
+  border: none;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  padding: 1.5rem 3rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: var(--alt-color);
+  font-family: sans-serif;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  border-radius: 0.5rem;
+}
+.btn i {
+  margin-right: 0.8rem;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+.wrapper {
+  margin-left: 3rem;
+}
+.main .wrapper {
+  width: 70%;
+}
+.item img {
+  height: 25rem;
+  width: 25rem;
+}
+.carousel-films {
+  margin-top: 0.5rem;
+}
