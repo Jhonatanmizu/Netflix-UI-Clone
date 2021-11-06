@@ -121,6 +121,11 @@ header {
     margin-top: 0.5rem;
     width: 19.8rem;
     height: 6rem;
+    margin-right: 0.5rem;
+  }
+  .btns {
+    display: flex;
+    flex-direction: row;
   }
   .item img {
     height: 100%;
